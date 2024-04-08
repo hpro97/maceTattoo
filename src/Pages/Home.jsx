@@ -6,12 +6,17 @@ import FAQs from "../Components/FAQs";
 
 const Home = () => {
   return (
-    <div className="imgContainer">
-      <img src={MaceTattooing} alt="Mace Tattooing black and grey candid shot" />
-      <AboutMe />
-      <Testimonials />
-      <FAQs />
-    </div>
+    <>
+      <div className="imgContainer">
+        <img
+          src={MaceTattooing}
+          alt="Mace Tattooing black and grey candid shot"
+        />
+        <AboutMe />
+        <Testimonials />
+        <FAQs />
+      </div>
+    </>
   );
 };
 
