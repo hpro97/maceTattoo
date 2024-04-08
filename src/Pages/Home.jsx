@@ -11,7 +11,7 @@ const Home = () => {
         <img
           src={MaceTattooing}
           alt="Mace Tattooing black and grey candid shot"
-          style={{ width: "100%", maxWidth: "100vw" }}
+          style={{ width: "100%", maxWidth: "100%", height: "100%", maxHeight: "100%" }}
         />
         </div>
         <AboutMe />
