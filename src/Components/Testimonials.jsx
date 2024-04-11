@@ -2,7 +2,7 @@ const Testimonials = () => {
   return (
     <>
     <div className="backgroundWhite">
-    <h2>Testimonials:</h2>
+    <h2 className="blackText">Testimonials:</h2>
       <div className="row">
         <div className="col-lg-4 text-center">
           <svg
