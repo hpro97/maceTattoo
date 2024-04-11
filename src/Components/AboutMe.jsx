@@ -1,6 +1,7 @@
 const AboutMe = () => {
   return (
     <>
+    <div className="backgroundBlack">
       <h2>About Me:</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum
@@ -24,6 +25,7 @@ const AboutMe = () => {
         lacinia nec elit ac semper. Etiam vehicula, mi vel ornare vulputate,
         risus orci eleifend mauris, in.
       </p>
+      </div>
     </>
   );
 };

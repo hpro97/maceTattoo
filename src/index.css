@@ -1,0 +1,41 @@
+/* sections */
+body {
+   background-color: black;
+   color: white;
+}
+
+/* elements */
+
+h2 {
+   color: #FAC800;
+   padding: 1rem;
+}
+
+p {
+   padding: 0.2rem;
+   margin: 1rem;
+}
+
+/* classes */
+
+.backgroundWhite {
+background-color: white;
+}
+
+.backgroundBlack {
+   background-color: black;
+}
+
+.boxPadding {
+   margin: 1rem;
+   padding: 0.5rem;
+}
+
+.smallPadding {
+   padding: 0.1rem;
+   margin: 0.4rem;
+}
+
+.basicPadding {
+   padding: 1rem;
+}
