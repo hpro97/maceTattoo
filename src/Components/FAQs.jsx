@@ -2,11 +2,11 @@ const FAQs = () => {
   return (
     <>
       <div className="backgroundBlack boxPadding">
-        <h2>FAQs:</h2>
+        <h2 className = "headerMain">FAQs:</h2>
         <div className="accordion" id="accordionExample">
           {/* Accordion Item 1 */}
           <div className="accordion-item">
-            <h2 className="accordion-header" id="headingOne">
+            <h2 className="accordion-header headerSub" id="headingOne">
               <button
                 className="accordion-button"
                 type="button"
@@ -33,7 +33,7 @@ const FAQs = () => {
           </div>
           {/* Accordion Item 2 */}
           <div className="accordion-item">
-            <h2 className="accordion-header" id="headingTwo">
+            <h3 className="accordion-header headerSub" id="headingTwo">
               <button
                 className="accordion-button collapsed"
                 type="button"
@@ -44,7 +44,7 @@ const FAQs = () => {
               >
                 Deposits
               </button>
-            </h2>
+            </h3>
             <div
               id="collapseTwo"
               className="accordion-collapse collapse"
@@ -59,7 +59,7 @@ const FAQs = () => {
           </div>
           {/* Accordion Item 3 */}
           <div className="accordion-item">
-            <h2 className="accordion-header" id="headingThree">
+            <h3 className="accordion-header headerSub" id="headingThree">
               <button
                 className="accordion-button collapsed"
                 type="button"
@@ -70,7 +70,7 @@ const FAQs = () => {
               >
                 Pricing
               </button>
-            </h2>
+            </h3>
             <div
               id="collapseThree"
               className="accordion-collapse collapse"
@@ -84,7 +84,7 @@ const FAQs = () => {
           </div>
           {/* Accordion Item 4 */}
           <div className="accordion-item">
-            <h2 className="accordion-header" id="headingFour">
+            <h3 className="accordion-header headerSub" id="headingFour">
               <button
                 className="accordion-button collapsed"
                 type="button"
@@ -95,7 +95,7 @@ const FAQs = () => {
               >
                 Consultation process
               </button>
-            </h2>
+            </h3>
             <div
               id="collapseFour"
               className="accordion-collapse collapse"
@@ -109,7 +109,7 @@ const FAQs = () => {
           </div>
           {/* Accordion Item 5 */}
           <div className="accordion-item">
-            <h2 className="accordion-header" id="headingFive">
+            <h3 className="accordion-header headerSub" id="headingFive">
               <button
                 className="accordion-button collapsed"
                 type="button"
@@ -120,7 +120,7 @@ const FAQs = () => {
               >
                 Custom designs
               </button>
-            </h2>
+            </h3>
             <div
               id="collapseFive"
               className="accordion-collapse collapse"
@@ -134,7 +134,7 @@ const FAQs = () => {
           </div>
           {/* Accordion Item 6 */}
           <div className="accordion-item">
-            <h2 className="accordion-header" id="headingSix">
+            <h3 className="accordion-header headerSub" id="headingSix">
               <button
                 className="accordion-button collapsed"
                 type="button"
@@ -145,7 +145,7 @@ const FAQs = () => {
               >
                 How to prep for your appointment
               </button>
-            </h2>
+            </h3>
             <div
               id="collapseSix"
               className="accordion-collapse collapse"
@@ -159,7 +159,7 @@ const FAQs = () => {
           </div>
           {/* Accordion Item 7 */}
           <div className="accordion-item">
-            <h2 className="accordion-header" id="headingSeven">
+            <h3 className="accordion-header headerSub" id="headingSeven">
               <button
                 className="accordion-button collapsed"
                 type="button"
@@ -170,7 +170,7 @@ const FAQs = () => {
               >
                 Parking
               </button>
-            </h2>
+            </h3>
             <div
               id="collapseSeven"
               className="accordion-collapse collapse"
@@ -184,7 +184,7 @@ const FAQs = () => {
           </div>
           {/* Accordion Item 8 */}
           <div className="accordion-item">
-            <h2 className="accordion-header" id="headingEight">
+            <h3 className="accordion-header headerSub" id="headingEight">
               <button
                 className="accordion-button collapsed"
                 type="button"
@@ -195,7 +195,7 @@ const FAQs = () => {
               >
                 Aftercare
               </button>
-            </h2>
+            </h3>
             <div
               id="collapseEight"
               className="accordion-collapse collapse"

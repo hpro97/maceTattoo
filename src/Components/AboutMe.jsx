@@ -2,7 +2,7 @@ const AboutMe = () => {
   return (
     <>
     <div className="backgroundBlack">
-      <h2>About Me:</h2>
+      <h2 className = "headerMain">About Me:</h2>
       <p>
       Meet Mace, a seasoned tattoo artist with a passion for traditional ink and a flair for bold, solid lines. With four years of experience under his belt, Mace has honed his craft in various tattoo shops, each contributing to his diverse skill set and artistic vision.<br /><br />
 

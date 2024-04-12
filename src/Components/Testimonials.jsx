@@ -2,7 +2,7 @@ const Testimonials = () => {
   return (
     <>
     <div className="backgroundWhite">
-    <h2 className="blackText">Testimonials:</h2>
+    <h2 className="blackText headerMain">Testimonials:</h2>
       <div className="row">
         <div className="col-lg-4 text-center">
           <svg
@@ -23,7 +23,7 @@ const Testimonials = () => {
             ></rect>
           </svg>
           <div className="backgroundBlack boxPadding rounded-4 testimonial-box">
-            <h2 className="fw-normal">Harry</h2>
+            <h3 className="fw-normal headerSub yellow">Harry</h3>
             <p>
               "Bit of a nonce, touched me inapproriately..."
             </p>
@@ -49,7 +49,7 @@ const Testimonials = () => {
             ></rect>
           </svg>
           <div className="backgroundBlack boxPadding rounded-4 testimonial-box">
-            <h2 className="fw-normal"> Sarah</h2>
+          <h3 className="fw-normal headerSub yellow"> Sarah</h3>
             <p>
             "Mace's traditional style is unmatched! Thrilled with my new ink - every line is perfection. Can't wait for round two!"</p>
           </div>
@@ -74,7 +74,7 @@ const Testimonials = () => {
             ></rect>
           </svg>
           <div className="backgroundBlack boxPadding rounded-4 testimonial-box">
-            <h2 className="fw-normal">Alex</h2>
+          <h3 className="fw-normal headerSub yellow">Alex</h3>
             <p>
             "Huge shoutout to Mace for his stellar traditional work! My tattoo is a true masterpiece. Already planning my next piece with him!"</p>
           </div>
@@ -102,7 +102,7 @@ const Testimonials = () => {
             ></rect>
           </svg>
           <div className="backgroundBlack boxPadding rounded-4 testimonial-box">
-            <h2 className="fw-normal">Lily</h2>
+          <h3 className="fw-normal headerSub yellow">Lily</h3>
             <p>
             "Mace nailed it with my traditional tattoo! His attention to detail is incredible. Highly recommend him for classic ink!"</p>
           </div>
@@ -127,7 +127,7 @@ const Testimonials = () => {
             ></rect>
           </svg>
           <div className="backgroundBlack boxPadding rounded-4 testimonial-box">
-            <h2 className="fw-normal">Max</h2>
+          <h3 className="fw-normal headerSub yellow">Max</h3>
             <p>
             "Massive thanks to Mace for his exceptional traditional skills! My tattoo is exactly what I envisioned. A true artist!"
             </p>
@@ -153,7 +153,7 @@ const Testimonials = () => {
             ></rect>
           </svg>
           <div className="backgroundBlack boxPadding rounded-4 testimonial-box">
-            <h2 className="fw-normal">Jack</h2>
+          <h3 className="fw-normal headerSub yellow">Jack</h3>
             <p>
             "Big ups to Mace for his traditional craftsmanship! My tattoo is beyond amazing. Can't wait to add more of his work to my collection!"</p>
           </div>
