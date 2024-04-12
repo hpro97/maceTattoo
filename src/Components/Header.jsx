@@ -18,18 +18,18 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 me-3" id="headerLinks">
-              <li className="nav-item me-3">
+              <li className="nav-item me-3 fs-3">
                 <a className="nav-link active" aria-current="page" href="#">
                   Home
                 </a>
               </li>
-              <li className="nav-item me-3">
+              <li className="nav-item me-3 fs-3">
                 <a className="nav-link" href="">
                   contact
                 </a>
                 {/* change href for pathing to contact route */}
               </li>
-              <li className="nav-item me-3">
+              <li className="nav-item me-3 fs-3">
                 <a className="nav-link" href="">
                   gallery
                 </a>
@@ -44,3 +44,6 @@ const Header = () => {
 };
 
 export default Header;
+
+// add links
+// replace content

@@ -1,29 +1,52 @@
 /* sections */
 body {
-   background-color: black;
+   background-color: #212529;
    color: white;
+   font-family: "Slabo 27px", serif;
+   font-size: large;
 }
+
 
 /* elements */
-
-h2 {
-   color: #FAC800;
-   padding: 1rem;
-}
 
 p {
    padding: 0.2rem;
    margin: 1rem;
 }
 
+a {
+   color: hotpink;
+}
+
 /* classes */
 
+.headerMain {
+   color: #FAC800;
+   padding: 1rem;
+   font-family:"Lato", sans-serif;
+   font-size: 4rem;
+}
+
+.headerSub {
+   font-size: 2.3rem;
+}
+
+.accordion-button {
+   height: 5rem; /* Adjust the height as needed */
+   font-size: 1.5rem;
+   font-weight: 600;
+}
+
+.yellow {
+   color: #FAC800;
+}
+
 .backgroundWhite {
-background-color: white;
+   background-color: white;
 }
 
 .backgroundBlack {
-   background-color: black;
+   background-color: #212529;
 }
 
 .boxPadding {
@@ -39,3 +62,20 @@ background-color: white;
 .basicPadding {
    padding: 1rem;
 }
+
+.blackText {
+   color: black;
+}
+
+.faqPadding {
+   padding: 1rem;
+   margin: 2rem;
+}
+
+.testimonial-box {
+   min-height: 20rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   font-size: large;
