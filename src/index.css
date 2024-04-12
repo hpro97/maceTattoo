@@ -43,3 +43,12 @@ background-color: white;
 .blackText {
    color: black;
 }
+
+.faqPadding {
+   padding: 1rem;
+   margin: 2rem;
+}
+
+a {
+   color: hotpink;
+}
