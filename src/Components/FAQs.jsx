@@ -214,3 +214,6 @@ const FAQs = () => {
 };
 
 export default FAQs;
+
+
+// replace content

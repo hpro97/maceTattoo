@@ -166,3 +166,6 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
+
+// add client pics
+// replace content

@@ -15,9 +15,15 @@ const AboutMe = () => {
       With Mace as your tattoo artist, you can expect not only exceptional craftsmanship but also a collaborative and personalized experience that celebrates your unique style and story. So, whether you're drawn to the timeless appeal of traditional tattoos or looking to explore new artistic horizons, Mace is ready to bring your tattoo ideas to life with skill, passion, and creativity.<br /><br />
       
       </p>
+
+      {/* {another pic of mace} */}
+
       </div>
     </>
   );
 };
 
 export default AboutMe;
+
+// add mace pics
+// replace content
