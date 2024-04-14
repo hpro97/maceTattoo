@@ -1,10 +1,15 @@
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import { Link } from 'react-router-dom';
+
 const Header = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <img className="navbar-brand" src="../../public/maceTattooing.jpg" height="40rem" />
-          {/* replace with mace sig ^ */}
+          <Link className="navbar-brand" to="/">
+            <img src="../../public/maceTattooing.jpg" height="40rem" alt="Mace Tattooing" />
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -19,21 +24,19 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 me-3" id="headerLinks">
               <li className="nav-item me-3 fs-3">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link className="nav-link active" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item me-3 fs-3">
-                <a className="nav-link" href="">
-                  contact
-                </a>
-                {/* change href for pathing to contact route */}
+                <Link className="nav-link" to="/Contact">
+                  Contact
+                </Link>
               </li>
               <li className="nav-item me-3 fs-3">
-                <a className="nav-link" href="">
-                  gallery
-                </a>
-                {/* change href for pathing to gallery route */}
+                <Link className="nav-link" to="/Gallery">
+                  Gallery
+                </Link>
               </li>
             </ul>
           </div>
@@ -44,6 +47,3 @@ const Header = () => {
 };
 
 export default Header;
-
-// add links
-// replace content
