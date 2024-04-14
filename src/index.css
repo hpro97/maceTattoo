@@ -18,21 +18,48 @@ a {
    color: hotpink;
 }
 
-/* classes */
+hr {
+   border-top: 0.4rem solid white
+}
 
+/* classes */
+.aboutText{
+
+   color: #212529;
+}
+
+.aboutPadder {
+   padding-top: 1rem;
+   padding-bottom: 3rem;
+}
+
+.headerContainer {
+   text-align: center;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   margin-left: 3rem;
+   margin-right: 3rem;
+   
+}
+
+.landingHeader {
+   font-size: 5vw;
+   font-family: "Rye", serif;
+   font-size: 10vw;
+}
 .headerMain {
    color: #FAC800;
    padding: 1rem;
    font-family:"Lato", sans-serif;
-   font-size: 4rem;
+   font-size: 2.5rem;
 }
 
 .headerSub {
-   font-size: 2.3rem;
+   font-size: 2rem;
 }
 
 .accordion-button {
-   height: 5rem; /* Adjust the height as needed */
+   height: 5rem;
    font-size: 1.5rem;
    font-weight: 600;
 }
@@ -73,9 +100,8 @@ a {
 }
 
 .testimonial-box {
-   min-height: 20rem;
+   min-height: 10rem;
    display: flex;
    flex-direction: column;
-   justify-content: center;
    text-align: center;
    font-size: large;

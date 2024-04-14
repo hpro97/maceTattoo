@@ -1,4 +1,3 @@
-// import pic of mace, placeholder for now
 import MaceTattooing from "../../public/maceTattooing.jpg";
 import AboutMe from "../Components/AboutMe";
 import Testimonials from "../Components/Testimonials";
@@ -11,15 +10,25 @@ const Home = () => {
         <img
           src={MaceTattooing}
           alt="Mace Tattooing black and grey candid shot"
-          style={{ width: "100%", maxWidth: "100%", height: "100%", maxHeight: "100%" }}
+          style={{
+            width: "100%",
+            maxWidth: "100%",
+            height: "100%",
+            maxHeight: "100%",
+          }}
         />
-        </div>
-        <AboutMe />
-        <Testimonials />
-        <FAQs />
-      
+      </div>
+      <div className="headerContainer">
+        <h1 className="landingHeader">Mace Tattoo</h1>
+      </div>
+      <hr />
+      <AboutMe />
+      <Testimonials />
+      <FAQs />
     </>
   );
 };
 
 export default Home;
+
+//import pic of mace
