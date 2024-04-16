@@ -1,7 +1,7 @@
 const Testimonials = () => {
   return (
     <>
-      <div className="backgroundWhite">
+      <div className="backgroundWhite boxPadding">
         <h2 className="blackText headerMain">Testimonials:</h2>
         <div className="row">
           <div className="col-lg-4 text-center">
@@ -88,7 +88,7 @@ const Testimonials = () => {
           {/* /.col-lg-4 */}
         </div>
         {/* {row} */}
-        <div className="row backgroundWhite">
+        <div className="row">
           <div className="col-lg-4 text-center">
             <svg
               className="bd-placeholder-img rounded-circle smallPadding"
