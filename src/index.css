@@ -103,17 +103,21 @@ hr {
 }
 
 .testimonial-box {
-   min-height: 10rem;
+   min-height: 16rem;
    display: flex;
    flex-direction: column;
+   justify-content: center;
+   align-items: center;
    text-align: center;
    font-size: large;
 }
+
 
 /* gallery */
 
 #galleryHeader {
    text-align: center;
+   color: #212529;
 }
 
 .galleryContainer {
@@ -135,7 +139,7 @@ hr {
 .galleryColumn {
    display: flex;
    flex-direction: column;
-   width: 19%;
+   width: 24%;
 }
 
 .galleryColumn img {
