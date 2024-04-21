@@ -1,8 +1,8 @@
 const AboutMe = () => {
   return (
     <>
-      <div className="backgroundBlack aboutPadder">
-        <h2 className="headerMain">About Me:</h2>
+      <div className="backgroundBlack aboutPadder ">
+        <h2 className="headerMain card headerCard" id="aboutMeHeader">About Me:</h2>
         <div className="aboutText">
         <div className="backgroundWhite boxPadding rounded-4 testimonial-box">
           <p>

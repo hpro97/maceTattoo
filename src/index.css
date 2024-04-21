@@ -6,6 +6,7 @@ body {
    color: white;
    font-family: "Slabo 27px", serif;
    font-size: large;
+   line-height: 2.3rem;
 }
 
 
@@ -24,7 +25,31 @@ hr {
    border-top: 0.4rem solid white
 }
 
+/* full stylying rework media queries */
+@media screen and (min-width: 995px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+@media screen and (min-width: 1600px) {
+
+}
+@media screen and (min-width: 1900px) {
+
+}
+
+
 /* General and Home */
+
+.headerCard {
+   margin-left: 1.5rem;
+   margin-right: 1.5rem;
+   background-color: #FAC800;
+   border: none;
+
+}
 .aboutText {
 
    color: #212529;
@@ -44,6 +69,10 @@ hr {
 
 }
 
+#aboutMeHeader {
+   text-align: center;
+}
+
 .landingHeader {
    font-size: 5vw;
    font-family: "Rye", serif;
@@ -51,7 +80,7 @@ hr {
 }
 
 .headerMain {
-   color: #FAC800;
+   color: #212529;
    padding: 1rem;
    font-family: "Lato", sans-serif;
    font-size: 2.5rem;
@@ -80,8 +109,9 @@ hr {
 }
 
 .boxPadding {
-   margin: 1rem;
+   margin: 1.5rem;
    padding: 0.5rem;
+   margin-bottom: 0rem;
 }
 
 .smallPadding {
@@ -102,6 +132,12 @@ hr {
    margin: 2rem;
 }
 
+#faqBox {
+   margin-top: 0rem;
+   padding-top: 0rem;
+   margin-bottom: 4rem;
+}
+
 .testimonial-box {
    min-height: 16rem;
    display: flex;
@@ -112,13 +148,44 @@ hr {
    font-size: large;
 }
 
+@media screen and (min-width: 992px) {
+   .testimonial-box {
+      min-height: 20rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: large;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+   }
+
+   #testimonialsCard{
+      margin-bottom: 4rem;
+   }
+
+}
+
+#testimonialsCard {
+   background-color: #212529;
+   color: #FAC800;
+   text-align: center;
+}
+
+.whiteText {
+   color: white;
+}
+
 
 /* gallery */
 
 #galleryHeader {
    text-align: center;
    color: #212529;
+   background-color: #FAC800;
 }
+
 
 .galleryContainer {
    display: flex;
@@ -147,7 +214,7 @@ hr {
    padding-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 995px) {
+@media screen and (max-width: 994px) {
    .galleryBox {
       flex-wrap: wrap;
       width: 100%;
@@ -166,7 +233,24 @@ hr {
    }
 }
 
+
+@media screen and (min-width: 700px) {
+   .landingHeader {
+      font-size: 5vw;
+      font-family: "Rye", serif;
+      font-size: 4rem;
+   }
+}
+
+
 /* contact */
+
+#contactHeader {
+   align-items: center;
+   margin-left: 3rem;
+   margin-right: 3rem;
+}
+
 #contactForm {
    justify-content: center;
    justify-items: center;
@@ -191,4 +275,8 @@ hr {
    width: 10rem;
    margin: 1rem;
    margin-top: 2rem;
+   background-color: #FAC800;
+   color: #212529;
+   border: none;
+   font-size: 1.5rem;
 }

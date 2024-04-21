@@ -1,8 +1,8 @@
 const Testimonials = () => {
   return (
     <>
-      <div className="backgroundWhite boxPadding">
-        <h2 className="blackText headerMain">Testimonials:</h2>
+      <div className="backgroundWhite boxPadding card whiteText">
+        <h2 className="blackText headerMain card headerCard " id="testimonialsCard">Testimonials:</h2>
         <div className="row">
           <div className="col-lg-4 text-center">
             <svg

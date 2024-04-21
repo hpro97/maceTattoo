@@ -1,7 +1,7 @@
 const Gallery = () => {
   return (
     <>
-      <h2 className="headerMain backgroundWhite" id="galleryHeader">
+      <h2 className="headerMain backgroundWhite card headerCard" id="galleryHeader">
         Gallery:
       </h2>
       <div class="galleryContainer">

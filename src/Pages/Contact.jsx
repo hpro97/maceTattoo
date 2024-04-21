@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <>
-      <h2 className="headerMain">Contact:</h2>
+      <h2 className="headerMain card headerCard" id="contactHeader">Contact:</h2>
       <div className="formContainer card" id="contactForm">
         <form>
           <div className="row rowPadding">
@@ -55,7 +55,7 @@ const Contact = () => {
           </div>
           <div className="row rowPadding justify-content-center">
             <button type="submit" className="btn btn-primary" id="sendButton">
-              Sign in
+              Send
             </button>
           </div>
         </form>
