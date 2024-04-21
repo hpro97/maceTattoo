@@ -46,6 +46,9 @@ margin-right: 6.2rem;
 
 /* contact */
 #contactSection{
+margin-top: 5rem;
+margin-left: 3rem;
+margin-right: 3rem;
 
 }
 
@@ -58,7 +61,9 @@ margin-right: 6.2rem;
 }
 
 .rowContact{
-
+   padding-top: 1rem;
+   margin-left: 3rem;
+   margin-right: 3rem;
 }
 
 .formSection{
@@ -66,11 +71,12 @@ margin-right: 6.2rem;
 }
 
 .labelName{
-
+   padding: 4rem;
 }
 
 .formInput{
-
+   padding: 1.5rem;
+   
 }
 
 /* home */
@@ -123,7 +129,10 @@ margin-right: 6.2rem;
    
    }
    /* contact */
-   #contactSection{
+#contactSection{
+   margin-top: 5rem;
+   margin-left: 3rem;
+   margin-right: 3rem;
    
    }
    
@@ -136,7 +145,9 @@ margin-right: 6.2rem;
    }
    
    .rowContact{
-   
+      padding-top: 1rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
    }
    
    .formSection{
@@ -144,11 +155,12 @@ margin-right: 6.2rem;
    }
    
    .labelName{
-   
+      padding: 4rem;
    }
    
    .formInput{
-   
+      padding: 1.5rem;
+      
    }
    
    /* home */
@@ -202,33 +214,39 @@ margin-right: 6.2rem;
    }
 /* contact */
 #contactSection{
-
-}
-
-#contactHeader{
-
-}
-
-#contactForm{
-
-}
-
-.rowContact{
-
-}
-
-.formSection{
-
-}
-
-.labelName{
-
-}
-
-.formInput{
-
-}
-
+   margin-top: 5rem;
+   margin-left: 12rem;
+   margin-right: 12rem;
+   
+   }
+   
+   #contactHeader{
+   
+   }
+   
+   #contactForm{
+   
+   }
+   
+   .rowContact{
+      padding-top: 1rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+   }
+   
+   .formSection{
+   
+   }
+   
+   .labelName{
+      padding: 4rem;
+   }
+   
+   .formInput{
+      padding: 1.5rem;
+      
+   }
+   
 /* home */
 
    /* about me */
@@ -279,7 +297,10 @@ margin-right: 6.2rem;
    
    }
    /* contact */
-   #contactSection{
+#contactSection{
+   margin-top: 4rem;
+   margin-left: 14rem;
+   margin-right: 14rem;
    
    }
    
@@ -292,7 +313,9 @@ margin-right: 6.2rem;
    }
    
    .rowContact{
-   
+      padding-top: 1rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
    }
    
    .formSection{
@@ -300,11 +323,12 @@ margin-right: 6.2rem;
    }
    
    .labelName{
-   
+      padding: 4rem;
    }
    
    .formInput{
-   
+      padding: 2rem;
+      
    }
    
    /* home */
