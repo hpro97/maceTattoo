@@ -6,6 +6,7 @@ body {
    color: white;
    font-family: "Slabo 27px", serif;
    font-size: large;
+   line-height: 2.3rem;
 }
 
 
@@ -24,7 +25,280 @@ hr {
    border-top: 0.4rem solid white
 }
 
+/* full stylying rework media queries */
+@media screen and (min-width: 995px) {
+
+   /* gallery */
+   #gallerySection {
+      padding: 3rem;
+   }
+
+   #galleryHeader {
+      margin-bottom: 1rem;
+      margin-left: 6.2rem;
+      margin-right: 6.2rem;
+   }
+
+   /* contact */
+   #contactSection {
+      margin-top: 5rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+
+   }
+
+   .rowContact {
+      padding-top: 1rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+   }
+
+   .labelName {
+      padding: 4rem;
+   }
+
+   .formInput {
+      padding: 1.5rem;
+
+   }
+
+   /* home */
+
+   /* about me */
+   #aboutMeSection {
+      margin-left: 5rem;
+      margin-right: 5rem;
+      padding-bottom: 0rem;
+   }
+
+   /* testimonials */
+
+   #testimonialSection {
+      padding-bottom: 0rem;
+   }
+
+   /* faqs */
+   #faqBox {
+      margin-left: 2rem;
+      margin-right: 2rem;
+      padding-bottom: 0rem;
+   }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+   /* gallery */
+   #gallerySection {
+      padding: 2rem;
+   }
+
+   #galleryHeader {
+      margin-bottom: 2rem;
+      margin-left: 7.5rem;
+      margin-right: 7.5rem;
+   }
+
+   /* contact */
+   #contactSection {
+      margin-top: 5rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+
+   }
+
+   .rowContact {
+      padding-top: 1rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+   }
+
+   .labelName {
+      padding: 4rem;
+   }
+
+   .formInput {
+      padding: 1.5rem;
+
+   }
+
+   /* home */
+
+   /* about me */
+   #aboutMeSection {
+      margin-top: 2rem;
+      margin-left: 10rem;
+      margin-right: 10rem;
+      padding-bottom: 1rem;
+   }
+
+   /* testimonials */
+
+   #testimonialSection {
+      padding-bottom: 0rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
+   }
+
+   .rowTestionial {
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+   }
+
+   /* faqs */
+   #faqBox {
+      margin-left: 6rem;
+      margin-right: 6rem;
+      padding-bottom: 0rem;
+   }
+
+}
+
+@media screen and (min-width: 1600px) {
+
+   /* gallery */
+   #gallerySection {
+      padding: 3rem;
+   }
+
+   #galleryHeader {
+      margin-bottom: 2rem;
+      margin-left: 10rem;
+      margin-right: 10rem;
+   }
+
+   /* contact */
+   #contactSection {
+      margin-top: 5rem;
+      margin-left: 12rem;
+      margin-right: 12rem;
+
+   }
+
+   .rowContact {
+      padding-top: 1rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+   }
+
+   .labelName {
+      padding: 4rem;
+   }
+
+   .formInput {
+      padding: 1.5rem;
+
+   }
+
+   /* home */
+
+   /* about me */
+   #aboutMeSection {
+      margin-top: 2rem;
+      margin-left: 15rem;
+      margin-right: 15rem;
+      padding-bottom: 1rem;
+   }
+
+   /* testimonials */
+
+   #testimonialSection {
+      padding-bottom: 0rem;
+      padding-left: 6rem;
+      padding-right: 6rem;
+   }
+
+   .rowTestionial {
+      margin-bottom: 5rem;
+      margin-top: 3rem;
+   }
+
+   /* faqs */
+   #faqBox {
+      margin-left: 8rem;
+      margin-right: 8rem;
+      padding-bottom: 0rem;
+   }
+}
+
+@media screen and (min-width: 1900px) {
+
+   /* gallery */
+   #gallerySection {
+      padding: 3rem;
+   }
+
+   #galleryHeader {
+      margin-bottom: 0rem;
+      margin-left: 12rem;
+      margin-right: 12rem;
+   }
+
+   /* contact */
+   #contactSection {
+      margin-top: 4rem;
+      margin-left: 14rem;
+      margin-right: 14rem;
+
+   }
+
+   .rowContact {
+      padding-top: 1rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+   }
+
+   .labelName {
+      padding: 4rem;
+   }
+
+   .formInput {
+      padding: 2rem;
+
+   }
+
+   /* home */
+
+   /* about me */
+   #aboutMeSection {
+      margin-top: 5rem;
+      margin-left: 15rem;
+      margin-right: 15rem;
+      margin-bottom: 5rem;
+   }
+
+   /* testimonials */
+
+   #testimonialSection {
+      padding-bottom: 0rem;
+      padding-left: 10rem;
+      padding-right: 10rem;
+   }
+
+   .rowTestionial {
+      margin-bottom: 5rem;
+      margin-top: 3rem;
+   }
+
+   /* faqs */
+   #faqBox {
+      margin-left: 10rem;
+      margin-right: 10rem;
+      padding-bottom: 0rem;
+   }
+}
+
+
 /* General and Home */
+
+.headerCard {
+   margin-left: 1.5rem;
+   margin-right: 1.5rem;
+   background-color: #FAC800;
+   border: none;
+
+}
+
 .aboutText {
 
    color: #212529;
@@ -44,6 +318,10 @@ hr {
 
 }
 
+#aboutMeHeader {
+   text-align: center;
+}
+
 .landingHeader {
    font-size: 5vw;
    font-family: "Rye", serif;
@@ -51,7 +329,7 @@ hr {
 }
 
 .headerMain {
-   color: #FAC800;
+   color: #212529;
    padding: 1rem;
    font-family: "Lato", sans-serif;
    font-size: 2.5rem;
@@ -80,8 +358,9 @@ hr {
 }
 
 .boxPadding {
-   margin: 1rem;
+   margin: 1.5rem;
    padding: 0.5rem;
+   margin-bottom: 0rem;
 }
 
 .smallPadding {
@@ -102,6 +381,22 @@ hr {
    margin: 2rem;
 }
 
+#faqBox {
+   margin-top: 0rem;
+   padding-top: 0rem;
+   margin-bottom: 4rem;
+}
+
+.aboutMeBox {
+   min-height: 16rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-size: large;
+}
+
 .testimonial-box {
    min-height: 16rem;
    display: flex;
@@ -112,13 +407,44 @@ hr {
    font-size: large;
 }
 
+@media screen and (min-width: 992px) {
+   .testimonial-box {
+      min-height: 20rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: large;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+   }
+
+   #testimonialsCard {
+      margin-bottom: 4rem;
+   }
+
+}
+
+#testimonialsCard {
+   background-color: #212529;
+   color: #FAC800;
+   text-align: center;
+}
+
+.whiteText {
+   color: white;
+}
+
 
 /* gallery */
 
 #galleryHeader {
    text-align: center;
    color: #212529;
+   background-color: #FAC800;
 }
+
 
 .galleryContainer {
    display: flex;
@@ -147,7 +473,7 @@ hr {
    padding-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 995px) {
+@media screen and (max-width: 994px) {
    .galleryBox {
       flex-wrap: wrap;
       width: 100%;
@@ -166,7 +492,24 @@ hr {
    }
 }
 
+
+@media screen and (min-width: 700px) {
+   .landingHeader {
+      font-size: 5vw;
+      font-family: "Rye", serif;
+      font-size: 4rem;
+   }
+}
+
+
 /* contact */
+
+#contactHeader {
+   align-items: center;
+   margin-left: 3rem;
+   margin-right: 3rem;
+}
+
 #contactForm {
    justify-content: center;
    justify-items: center;
@@ -191,4 +534,8 @@ hr {
    width: 10rem;
    margin: 1rem;
    margin-top: 2rem;
+   background-color: #FAC800;
+   color: #212529;
+   border: none;
+   font-size: 1.5rem;
 }

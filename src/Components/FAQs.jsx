@@ -1,7 +1,7 @@
 const FAQs = () => {
   return (
     <>
-      <div className="backgroundBlack boxPadding">
+      <div className="backgroundBlack boxPadding" id="faqBox">
         <h2 className = "headerMain">FAQs:</h2>
         <div className="accordion" id="accordionExample">
           {/* Accordion Item 1 */}

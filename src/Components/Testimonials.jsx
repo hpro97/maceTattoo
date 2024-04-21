@@ -1,9 +1,9 @@
 const Testimonials = () => {
   return (
     <>
-      <div className="backgroundWhite boxPadding">
-        <h2 className="blackText headerMain">Testimonials:</h2>
-        <div className="row">
+      <div className="backgroundWhite boxPadding card whiteText" id="testimonialSection">
+        <h2 className="blackText headerMain card headerCard " id="testimonialsCard">Testimonials:</h2>
+        <div className="row rowTestionial">
           <div className="col-lg-4 text-center">
             <svg
               className="bd-placeholder-img rounded-circle smallPadding"
@@ -87,8 +87,8 @@ const Testimonials = () => {
           </div>
           {/* /.col-lg-4 */}
         </div>
-        {/* {row} */}
-        <div className="row">
+        {/* {row rowTestionial} */}
+        <div className="row rowTestionial">
           <div className="col-lg-4 text-center">
             <svg
               className="bd-placeholder-img rounded-circle smallPadding"
