@@ -27,18 +27,312 @@ hr {
 
 /* full stylying rework media queries */
 @media screen and (min-width: 995px) {
+.landingHeader{
+
+}
+/* gallery */
+#gallerySection{
+
+}
+
+#galleryHeader{
+
+}
+.galleryContainer{
+
+}
+
+/* contact */
+#contactSection{
+
+}
+
+#contactHeader{
+
+}
+
+#contactForm{
+
+}
+
+.rowContact{
+
+}
+
+.formSection{
+
+}
+
+.labelName{
+
+}
+
+.formInput{
+
+}
+
+/* home */
+
+   /* about me */
+   #aboutMeSection{
+
+   }
+
+   #aboutMeHeader{
+
+   }
+
+   .aboutMeBox{
+
+   }
+
+   /* testimonials */
+
+   #testimonialSection{
+
+   }
+
+   .rowTestionial{
+
+   }
+
+   /* faqs */
+   #faqBox {
+
+   }
 
 }
 
 @media screen and (min-width: 1200px) {
+   .landingHeader{
+   
+   }
+   /* gallery */
+   #gallerySection{
+   
+   }
+   
+   #galleryHeader{
+   
+   }
+   .galleryContainer{
+   
+   }
+   
+   /* contact */
+   #contactSection{
+   
+   }
+   
+   #contactHeader{
+   
+   }
+   
+   #contactForm{
+   
+   }
+   
+   .rowContact{
+   
+   }
+   
+   .formSection{
+   
+   }
+   
+   .labelName{
+   
+   }
+   
+   .formInput{
+   
+   }
+   
+   /* home */
+   
+      /* about me */
+      #aboutMeSection{
+   
+      }
+   
+      #aboutMeHeader{
+   
+      }
+   
+      .aboutMeBox{
+   
+      }
+   
+      /* testimonials */
+   
+      #testimonialSection{
+   
+      }
+   
+      .rowTestionial{
+   
+      }
+   
+      /* faqs */
+      #faqBox {
+   
+      }
+   
+   }
 
-}
 @media screen and (min-width: 1600px) {
+.landingHeader{
 
 }
+/* gallery */
+#gallerySection{
+
+}
+
+#galleryHeader{
+
+}
+.galleryContainer{
+
+}
+
+/* contact */
+#contactSection{
+
+}
+
+#contactHeader{
+
+}
+
+#contactForm{
+
+}
+
+.rowContact{
+
+}
+
+.formSection{
+
+}
+
+.labelName{
+
+}
+
+.formInput{
+
+}
+
+/* home */
+
+   /* about me */
+   #aboutMeSection{
+
+   }
+
+   #aboutMeHeader{
+
+   }
+
+   .aboutMeBox{
+
+   }
+
+   /* testimonials */
+
+   #testimonialSection{
+
+   }
+
+   .rowTestionial{
+
+   }
+
+   /* faqs */
+   #faqBox {
+
+   }
+
+}
+
 @media screen and (min-width: 1900px) {
-
-}
+   .landingHeader{
+   
+   }
+   /* gallery */
+   #gallerySection{
+   
+   }
+   
+   #galleryHeader{
+   
+   }
+   .galleryContainer{
+   
+   }
+   
+   /* contact */
+   #contactSection{
+   
+   }
+   
+   #contactHeader{
+   
+   }
+   
+   #contactForm{
+   
+   }
+   
+   .rowContact{
+   
+   }
+   
+   .formSection{
+   
+   }
+   
+   .labelName{
+   
+   }
+   
+   .formInput{
+   
+   }
+   
+   /* home */
+   
+      /* about me */
+      #aboutMeSection{
+   
+      }
+   
+      #aboutMeHeader{
+   
+      }
+   
+      .aboutMeBox{
+   
+      }
+   
+      /* testimonials */
+   
+      #testimonialSection{
+   
+      }
+   
+      .rowTestionial{
+   
+      }
+   
+      /* faqs */
+      #faqBox {
+   
+      }
+   
+   }
 
 
 /* General and Home */
@@ -136,6 +430,16 @@ hr {
    margin-top: 0rem;
    padding-top: 0rem;
    margin-bottom: 4rem;
+}
+
+.aboutMeBox {
+   min-height: 16rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-size: large;
 }
 
 .testimonial-box {

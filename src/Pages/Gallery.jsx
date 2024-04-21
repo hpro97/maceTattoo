@@ -1,6 +1,7 @@
 const Gallery = () => {
   return (
     <>
+    <div id="gallerySection">
       <h2 className="headerMain backgroundWhite card headerCard" id="galleryHeader">
         Gallery:
       </h2>
@@ -35,6 +36,7 @@ const Gallery = () => {
           </div>
 
         </div>
+      </div>
       </div>
     </>
   );

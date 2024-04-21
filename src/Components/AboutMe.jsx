@@ -1,10 +1,10 @@
 const AboutMe = () => {
   return (
     <>
-      <div className="backgroundBlack aboutPadder ">
+      <div className="backgroundBlack aboutPadder " id="aboutMeSection">
         <h2 className="headerMain card headerCard" id="aboutMeHeader">About Me:</h2>
         <div className="aboutText">
-        <div className="backgroundWhite boxPadding rounded-4 testimonial-box">
+        <div className="backgroundWhite boxPadding rounded-4 testimonial-box aboutMeBox">
           <p>
             Meet Mace, a skilled tattoo artist known for his passion for
             traditional ink and bold, solid lines. With four years of diverse
