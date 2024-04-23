@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './index.css';
 import MaceTattooing from "../public/maceTattooing.jpg";
 import Header from './Components/Header.jsx';
+import Footer from './Components/Footer.jsx';
 
 import Home from './Pages/Home.jsx';
 import Contact from './Pages/Contact.jsx';
@@ -36,6 +37,7 @@ const App = () => {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Gallery" element={<Gallery />} />
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   );
