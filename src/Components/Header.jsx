@@ -2,13 +2,15 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Link } from 'react-router-dom';
 
+import logo from '../../public/mt-high-resolution-logo-white-transparent.png'
+
 const Header = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <img src="../../public/maceTattooing.jpg" height="40rem" alt="Mace Tattooing" />
+            <img src={logo} height="40rem" alt="Mace Tattooing" />
           </Link>
           <button
             className="navbar-toggler"
