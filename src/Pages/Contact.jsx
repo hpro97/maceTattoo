@@ -68,6 +68,5 @@ const Contact = () => {
 
 export default Contact;
 
-//finish layout of form
 //add functionality to send an email on click event
 //add footer for email phone and insta
