@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container d-flex justify-content-between align-items-center">
         <div>
-          <img src={logo} height="50rem" alt="Mace Tattoo logo" style={{ marginRight: "2rem", marginTop: "1rem", marginBottom: "1rem"}} />
+          <img src={logo} height="50rem" alt="Mace Tattoo logo" style={{ marginRight: "2rem", marginTop: "1rem", marginBottom: "2rem"}} />
         </div>
         <div>
           <ul className="social-icons list-inline mb-0">
