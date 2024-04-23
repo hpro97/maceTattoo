@@ -1,27 +1,33 @@
+import React from "react";
+import harry from "../../public/clientHarry.jpg";
+import sarah from "../../public/clientSarah.jpg";
+import alex from "../../public/clientAlex.jpg";
+import lily from "../../public/clientLily.jpg";
+import max from "../../public/clientMax.jpg";
+import jack from "../../public/clientJack.jpg";
+
 const Testimonials = () => {
   return (
     <>
-      <div className="backgroundWhite boxPadding card whiteText" id="testimonialSection">
-        <h2 className="blackText headerMain card headerCard " id="testimonialsCard">Testimonials:</h2>
-        <div className="row rowTestionial">
+      <div
+        className="backgroundWhite boxPadding card whiteText"
+        id="testimonialSection"
+      >
+        <h2
+          className="blackText headerMain card headerCard "
+          id="testimonialsCard"
+        >
+          Testimonials:
+        </h2>
+        <div className="row rowTestimonial">
           <div className="col-lg-4 text-center">
-            <svg
-              className="bd-placeholder-img rounded-circle smallPadding"
+            <img
+              src={harry}
+              alt="profile image of a person"
               width="140"
               height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Harry</title>
-              <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-color)"
-              ></rect>
-            </svg>
+              style={{ borderRadius: "50%", marginTop: "0.4rem" }}
+            />
             <div className="backgroundBlack boxPadding rounded-4 testimonial-box">
               <h3 className="fw-normal headerSub yellow">Harry</h3>
               <p>
@@ -32,25 +38,15 @@ const Testimonials = () => {
           </div>
           {/* /.col-lg-4 */}
           <div className="col-lg-4 text-center">
-            <svg
-              className="bd-placeholder-img rounded-circle smallPadding"
+            <img
+              src={sarah}
+              alt="profile image of a person"
               width="140"
               height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title> Sarah</title>
-              <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-color)"
-              ></rect>
-            </svg>
+              style={{ borderRadius: "50%", marginTop: "0.4rem" }}
+            />
             <div className="backgroundBlack boxPadding rounded-4 testimonial-box">
-              <h3 className="fw-normal headerSub yellow"> Sarah</h3>
+              <h3 className="fw-normal headerSub yellow">Sarah</h3>
               <p>
                 "Mace's traditional style is unmatched! Thrilled with my new ink
                 - every line is perfection. Can't wait for round two!"
@@ -59,23 +55,13 @@ const Testimonials = () => {
           </div>
           {/* /.col-lg-4 */}
           <div className="col-lg-4 text-center">
-            <svg
-              className="bd-placeholder-img rounded-circle smallPadding"
+            <img
+              src={alex}
+              alt="profile image of a person"
               width="140"
               height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Alex</title>
-              <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-color)"
-              ></rect>
-            </svg>
+              style={{ borderRadius: "50%", marginTop: "0.4rem" }}
+            />
             <div className="backgroundBlack boxPadding rounded-4 testimonial-box">
               <h3 className="fw-normal headerSub yellow">Alex</h3>
               <p>
@@ -87,26 +73,16 @@ const Testimonials = () => {
           </div>
           {/* /.col-lg-4 */}
         </div>
-        {/* {row rowTestionial} */}
-        <div className="row rowTestionial">
+        {/* {row rowTestimonial} */}
+        <div className="row rowTestimonial">
           <div className="col-lg-4 text-center">
-            <svg
-              className="bd-placeholder-img rounded-circle smallPadding"
+            <img
+              src={lily}
+              alt="profile image of a person"
               width="140"
               height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Lily</title>
-              <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-color)"
-              ></rect>
-            </svg>
+              style={{ borderRadius: "50%", marginTop: "0.4rem" }}
+            />
             <div className="backgroundBlack boxPadding rounded-4 testimonial-box">
               <h3 className="fw-normal headerSub yellow">Lily</h3>
               <p>
@@ -117,23 +93,13 @@ const Testimonials = () => {
           </div>
           {/* /.col-lg-4 */}
           <div className="col-lg-4 text-center">
-            <svg
-              className="bd-placeholder-img rounded-circle smallPadding"
+            <img
+              src={max}
+              alt="profile image of a person"
               width="140"
               height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Max</title>
-              <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-color)"
-              ></rect>
-            </svg>
+              style={{ borderRadius: "50%", marginTop: "0.4rem" }}
+            />
             <div className="backgroundBlack boxPadding rounded-4 testimonial-box">
               <h3 className="fw-normal headerSub yellow">Max</h3>
               <p>
@@ -144,23 +110,13 @@ const Testimonials = () => {
           </div>
           {/* /.col-lg-4 */}
           <div className="col-lg-4 text-center">
-            <svg
-              className="bd-placeholder-img rounded-circle smallPadding"
+            <img
+              src={jack}
+              alt="profile image of a person"
               width="140"
               height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Jack</title>
-              <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-color)"
-              ></rect>
-            </svg>
+              style={{ borderRadius: "50%", marginTop: "0.4rem" }}
+            />
             <div className="backgroundBlack boxPadding rounded-4 testimonial-box">
               <h3 className="fw-normal headerSub yellow">Jack</h3>
               <p>

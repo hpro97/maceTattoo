@@ -77,6 +77,15 @@ hr {
       padding-bottom: 0rem;
    }
 
+   #testimonialsCard {
+      margin-bottom: 0rem;
+   }
+
+   .rowTestimonial {
+      margin-bottom: 1rem;
+      margin-top: 0rem;
+   }
+
    /* faqs */
    #faqBox {
       margin-left: 2rem;
@@ -140,9 +149,8 @@ hr {
       padding-right: 4rem;
    }
 
-   .rowTestionial {
+   .rowTestimonial {
       margin-bottom: 2rem;
-      margin-top: 2rem;
    }
 
    /* faqs */
@@ -208,9 +216,9 @@ hr {
       padding-right: 6rem;
    }
 
-   .rowTestionial {
-      margin-bottom: 5rem;
-      margin-top: 3rem;
+   .rowTestimonial {
+      margin-bottom: 2rem;
+      margin-top: 0rem;
    }
 
    /* faqs */
@@ -275,9 +283,9 @@ hr {
       padding-right: 10rem;
    }
 
-   .rowTestionial {
-      margin-bottom: 5rem;
-      margin-top: 3rem;
+   .rowTestimonial {
+      margin-bottom: 4rem;
+      margin-top: 0rem;
    }
 
    /* faqs */
