@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const FAQs = () => {
   return (
     <>
@@ -27,7 +29,7 @@ const FAQs = () => {
               <div className="accordion-body">
                 The easiest way is to contact me here, you can fill in the form with relevant information and i'll get back to you ASAP.
                 <strong> You can also send me an email or a social media DM, but be aware they're not as heavily monitored as using my contact form </strong> 
-                <a href="/Contact"><code>Click here for a link to booking</code></a>, it'll take you to the form on this webpage.
+                <Link to="/Contact"><code>Click here for a link to booking</code></Link>, it'll take you to the form on this webpage.
               </div>
             </div>
           </div>
