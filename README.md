@@ -39,6 +39,7 @@ This portfolio website showcases the work, style, and artistic vision of Mason H
 ## Technologies Used
 - **Frontend**: HTML5, CSS3, JavaScript, Bootstrap, React
 - **APIs**: Web3Forms
+- **Design**: [logo.com](https://logo.com), [icons8.com](https://icons8.com)
 - **Others**: Git, GitHub, VS Code
 
 ## Contributing
